@@ -32,7 +32,7 @@
         "laminas/laminas-http": "^2.13",
         "laravel-zero/framework": "^8.2",
         "mockery/mockery": "^1.4.2",
-        "octoper/cuzzle": "^3.0",
+        "octoper/cuzzle": "dev-deploy",
         "nikic/php-parser": "^v4.10",
         "nyholm/psr7": "^1.3",
         "phpunit/phpunit": "^9.4.3",
@@ -68,6 +68,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/seankndy/reactphp-sqlite"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/holladaydigital/cuzzle"
         }
     ],
     "minimum-stability": "dev",
